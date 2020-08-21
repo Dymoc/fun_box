@@ -56,7 +56,8 @@ a {
         content: '';
         margin: -$r;
         border-radius: 50%;
-        box-shadow: 0 0 0 300px rgba(#95a, .75);
+        box-shadow: 0 0 0 450px rgba(#95a, .75);
+        background: url('/imgs/cat.png') no-repeat, white;
     }
 
     &__content {
