@@ -4,11 +4,17 @@
 }
 
 body {
+  font-family: 'Exo 2', sans-serif;
   background: url("./imgs/BG_Shadow.png");
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
   font-size: 36px;
+  font-weight: 200;
   color: white;
   text-align: center;
   margin-top: 45px;
@@ -31,5 +37,81 @@ body {
   background-position: -25px 210px;
   height: 480px;
   width: 320px;
+  border-radius: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 4px solid #1698d9;
+}
+
+.tovar-cart__content {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.tovar-cart__header {
+  font-size: 16px;
+  color: #666666;
+}
+
+.tovar-cart__brend {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tovar-cart__discription {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tovar-cart__quantity-and-present {
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+  margin-top: 20px;
+  height: 350px;
+}
+
+.tovar-cart__circle {
+  width: 80px;
+  height: 80px;
+  top: 380px;
+  left: 220px;
+  border-radius: 40px;
+  border: black;
+  background-color: #1698d9;
+  text-align: center;
+  position: absolute;
+}
+
+.tovar-cart__netto {
+  padding-top: 22px;
+  font-size: 42px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.tovar-cart__netto_kg {
+  font-size: 21px;
+}
+
+.tovar-cart__question {
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.tovar-cart__question_a {
+  color: #1698d9;
+  text-decoration: none;
+  border-bottom: 1px dashed #1698d9;
 }
 /*# sourceMappingURL=style.css.map */
